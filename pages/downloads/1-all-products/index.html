@@ -193,7 +193,7 @@ spnoConflict(function($){
                 class=" "><div class="container"><div class="row-fluid" id="main-body">
 <div id="sp-component-area" class="span8"><section id="sp-component-wrapper"><div id="sp-component"><div id="system-message-container">
 	</div>
-<div id="ph-pc-category-box" class="pc-category-view"><div class="ph-top"><a class="btn btn-success" title="Categories" href="/pages/downloads/categories" ><span class="glyphicon glyphicon-arrow-left"></span> Categories</a></div><h1 class="ph-header">All Products</h1><div class="clearfix"></div><form id="phItemTopBoxForm" action="/pages/downloads/1-all-products" method="post" name="phitemstopboxform">
+<div id="ph-pc-category-box" class="pc-category-view"><div class="ph-top"><a class="btn btn-success" title="Categories" href="/pages/downloads/categories" ><span class="glyphicon glyphicon-arrow-left"></span> Categories</a></div><h1 class="ph-header">All Products</h1><div class="clearfix"></div><form id="phItemTopBoxForm" action="/pages/downloads/1-all-products" method="GET" name="phitemstopboxform">
 <div class="ph-pagination-top"><div class="col-xs-12 col-sm-5 col-md-5 ph-pag-top-row">Ordering:&nbsp;<select id="itemordering" name="itemordering" class="inputbox form-control chosen-select" style="width: 16em" size="1" onchange="phEventChangeFormPagination(this.form)">
 	<option value="1" selected="selected">Ordering Ascending</option>
 	<option value="2">Ordering Descending</option>
@@ -252,7 +252,7 @@ spnoConflict(function($){
 			<div class="mod-inner clearfix">
 
 
-<form action="/pages/downloads" method="post" id="login-form" class="form-inline">
+<form action="/pages/downloads" method="GET" id="login-form" class="form-inline">
 		<div class="userdata">
 		<div id="form-login-username" class="control-group">
 			<div class="controls">
@@ -385,7 +385,7 @@ spnoConflict(function($){
 	<div class="mod-wrapper-flat clearfix">
 				<div class="acymailing_module" id="acymailing_module_formAcymailing19431">
 	<div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing19431"  >
-		<form id="formAcymailing19431" action="/pages/downloads" onsubmit="return submitacymailingform('optin','formAcymailing19431')" method="post" name="formAcymailing19431"  >
+		<form id="formAcymailing19431" action="/pages/downloads" onsubmit="return submitacymailingform('optin','formAcymailing19431')" method="GET" name="formAcymailing19431"  >
 		<div class="acymailing_module_form" >
 						<div class="acymailing_form">
 					<p class="onefield fieldacyemail" id="field_email_formAcymailing19431">							<span class="acyfield_email acy_requiredField"><input id="user_email_formAcymailing19431"  onfocus="if(this.value == 'E-mail') this.value = '';" onblur="if(this.value=='') this.value='E-mail';" class="inputbox" type="text" name="user[email]" style="width:243px" value="E-mail" title="E-mail" /></span>

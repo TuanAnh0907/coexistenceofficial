@@ -110,7 +110,7 @@
             var phOverlay = jQuery('<div id="phOverlayDiv"><div id="phLoaderFull"> </div></div>');
             phOverlay.appendTo("#phItemsBox");
             jQuery("#phOverlayDiv").fadeIn().css("display", "block");
-            var phUrl = "https://coexistenceofficial.com/pages/accessoires";
+            var phUrl = "/pages/accessoires";
             phRequest = jQuery.ajax({
                 type: "POST",
                 url: phUrl,
@@ -304,7 +304,7 @@
                                 <h1 class="ph-header">Accessoires</h1>
                                 <div class="clearfix"></div>
                                 <form id="phItemTopBoxForm"
-                                      action="https://coexistenceofficial.com/pages/accessoires" method="post"
+                                      action="/pages/accessoires" method="GET"
                                       name="phitemstopboxform">
                                     <div class="ph-pagination-top">
                                         <div class="col-xs-12 col-sm-5 col-md-5 ph-pag-top-row">Ordering:&nbsp;<select
@@ -407,8 +407,8 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="clearfix"></div>
-                                        <form action="https://coexistenceofficial.com/pages/accessoires"
-                                              method="post" name="adminForm">
+                                        <form action="/pages/accessoires"
+                                              method="GET" name="adminForm">
                                             <div class="ph-pagination">
                                                 <div class="col-xs-12 col-sm-7 col-md-7 ph-center-pagination">Ordering:&nbsp;<select
                                                     id="itemordering" name="itemordering"
@@ -509,7 +509,7 @@
                                 <div class="mod-inner clearfix">
 
 
-                                    <form action="/pages/accessoires" method="post" id="login-form"
+                                    <form action="/pages/accessoires" method="GET" id="login-form"
                                           class="form-inline">
                                         <div class="userdata">
                                             <div id="form-login-username" class="control-group">
@@ -675,7 +675,7 @@
                                 <div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing56501">
                                     <form id="formAcymailing56501" action="/pages/accessoires"
                                           onsubmit="return submitacymailingform('optin','formAcymailing56501')"
-                                          method="post" name="formAcymailing56501">
+                                          method="GET" name="formAcymailing56501">
                                         <div class="acymailing_module_form">
                                             <div class="acymailing_form">
                                                 <p class="onefield fieldacyemail" id="field_email_formAcymailing56501">

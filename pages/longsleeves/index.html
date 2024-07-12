@@ -110,7 +110,7 @@
             var phOverlay = jQuery('<div id="phOverlayDiv"><div id="phLoaderFull"> </div></div>');
             phOverlay.appendTo("#phItemsBox");
             jQuery("#phOverlayDiv").fadeIn().css("display", "block");
-            var phUrl = "https://coexistenceofficial.com/pages/longsleeves";
+            var phUrl = "/pages/longsleeves";
             phRequest = jQuery.ajax({
                 type: "POST",
                 url: phUrl,
@@ -303,7 +303,7 @@
                                 <h1 class="ph-header">Longsleeves</h1>
                                 <div class="clearfix"></div>
                                 <form id="phItemTopBoxForm"
-                                      action="https://coexistenceofficial.com/pages/longsleeves" method="post"
+                                      action="/pages/longsleeves" method="GET"
                                       name="phitemstopboxform">
                                     <div class="ph-pagination-top">
                                         <div class="col-xs-12 col-sm-5 col-md-5 ph-pag-top-row">Ordering:&nbsp;<select
@@ -503,8 +503,8 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="clearfix"></div>
-                                        <form action="https://coexistenceofficial.com/pages/longsleeves"
-                                              method="post" name="adminForm">
+                                        <form action="/pages/longsleeves"
+                                              method="GET" name="adminForm">
                                             <div class="ph-pagination">
                                                 <div class="col-xs-12 col-sm-7 col-md-7 ph-center-pagination">Ordering:&nbsp;<select
                                                     id="itemordering" name="itemordering"
@@ -605,7 +605,7 @@
                                 <div class="mod-inner clearfix">
 
 
-                                    <form action="/pages/longsleeves" method="post" id="login-form"
+                                    <form action="/pages/longsleeves" method="GET" id="login-form"
                                           class="form-inline">
                                         <div class="userdata">
                                             <div id="form-login-username" class="control-group">
@@ -771,7 +771,7 @@
                                 <div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing30641">
                                     <form id="formAcymailing30641" action="/pages/longsleeves"
                                           onsubmit="return submitacymailingform('optin','formAcymailing30641')"
-                                          method="post" name="formAcymailing30641">
+                                          method="GET" name="formAcymailing30641">
                                         <div class="acymailing_module_form">
                                             <div class="acymailing_form">
                                                 <p class="onefield fieldacyemail" id="field_email_formAcymailing30641">

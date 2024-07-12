@@ -110,7 +110,7 @@
             var phOverlay = jQuery('<div id="phOverlayDiv"><div id="phLoaderFull"> </div></div>');
             phOverlay.appendTo("#phItemsBox");
             jQuery("#phOverlayDiv").fadeIn().css("display", "block");
-            var phUrl = "https://coexistenceofficial.com/pages/lps";
+            var phUrl = "/pages/lps";
             phRequest = jQuery.ajax({
                 type: "POST",
                 url: phUrl,
@@ -300,7 +300,7 @@
                                 <h1 class="ph-header">LPs</h1>
                                 <div class="clearfix"></div>
                                 <form id="phItemTopBoxForm" action="/pages/lps"
-                                      method="post" name="phitemstopboxform">
+                                      method="GET" name="phitemstopboxform">
                                     <div class="ph-pagination-top">
                                         <div class="col-xs-12 col-sm-5 col-md-5 ph-pag-top-row">Ordering:&nbsp;<select
                                             id="itemordering" name="itemordering"
@@ -393,7 +393,7 @@
                                 <div class="mod-inner clearfix">
 
 
-                                    <form action="/pages/lps" method="post" id="login-form" class="form-inline">
+                                    <form action="/pages/lps" method="GET" id="login-form" class="form-inline">
                                         <div class="userdata">
                                             <div id="form-login-username" class="control-group">
                                                 <div class="controls">
@@ -558,7 +558,7 @@
                                 <div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing17351">
                                     <form id="formAcymailing17351" action="/pages/lps"
                                           onsubmit="return submitacymailingform('optin','formAcymailing17351')"
-                                          method="post" name="formAcymailing17351">
+                                          method="GET" name="formAcymailing17351">
                                         <div class="acymailing_module_form">
                                             <div class="acymailing_form">
                                                 <p class="onefield fieldacyemail" id="field_email_formAcymailing17351">

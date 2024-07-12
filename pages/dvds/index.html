@@ -73,7 +73,7 @@ function phDoSubmitFormPaginationTop(sFormData) {
    var phOverlay = jQuery('<div id="phOverlayDiv"><div id="phLoaderFull"> </div></div>');
    phOverlay.appendTo("#phItemsBox");
    jQuery("#phOverlayDiv").fadeIn().css("display","block");
-		var phUrl 	= "https://coexistenceofficial.com/pages/dvds";
+		var phUrl 	= "/pages/dvds";
 		phRequest = jQuery.ajax({
 			type: "POST",
 			url: phUrl,
@@ -193,7 +193,7 @@ spnoConflict(function($){
                 class=" "><div class="container"><div class="row-fluid" id="main-body">
 <div id="sp-component-area" class="span8"><section id="sp-component-wrapper"><div id="sp-component"><div id="system-message-container">
 	</div>
-<div id="ph-pc-category-box" class="pc-category-view"><div class="ph-top"><a class="btn btn-success" title="All Products" href="/pages/dvds/1-all-products" ><span class="glyphicon glyphicon-arrow-left"></span> All Products</a></div><h1 class="ph-header">DVDs</h1><div class="clearfix"></div><form id="phItemTopBoxForm" action="/pages/dvds" method="post" name="phitemstopboxform">
+<div id="ph-pc-category-box" class="pc-category-view"><div class="ph-top"><a class="btn btn-success" title="All Products" href="/pages/dvds/1-all-products" ><span class="glyphicon glyphicon-arrow-left"></span> All Products</a></div><h1 class="ph-header">DVDs</h1><div class="clearfix"></div><form id="phItemTopBoxForm" action="/pages/dvds" method="GET" name="phitemstopboxform">
 <div class="ph-pagination-top"><div class="col-xs-12 col-sm-5 col-md-5 ph-pag-top-row">Ordering:&nbsp;<select id="itemordering" name="itemordering" class="inputbox form-control chosen-select" style="width: 16em" size="1" onchange="phEventChangeFormPagination(this.form)">
 	<option value="1" selected="selected">Ordering Ascending</option>
 	<option value="2">Ordering Descending</option>
@@ -252,7 +252,7 @@ spnoConflict(function($){
 			<div class="mod-inner clearfix">
 
 
-<form action="/pages/dvds" method="post" id="login-form" class="form-inline">
+<form action="/pages/dvds" method="GET" id="login-form" class="form-inline">
 		<div class="userdata">
 		<div id="form-login-username" class="control-group">
 			<div class="controls">
@@ -385,7 +385,7 @@ spnoConflict(function($){
 	<div class="mod-wrapper-flat clearfix">
 				<div class="acymailing_module" id="acymailing_module_formAcymailing99891">
 	<div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing99891"  >
-		<form id="formAcymailing99891" action="/pages/dvds" onsubmit="return submitacymailingform('optin','formAcymailing99891')" method="post" name="formAcymailing99891"  >
+		<form id="formAcymailing99891" action="/pages/dvds" onsubmit="return submitacymailingform('optin','formAcymailing99891')" method="GET" name="formAcymailing99891"  >
 		<div class="acymailing_module_form" >
 						<div class="acymailing_form">
 					<p class="onefield fieldacyemail" id="field_email_formAcymailing99891">							<span class="acyfield_email acy_requiredField"><input id="user_email_formAcymailing99891"  onfocus="if(this.value == 'E-mail') this.value = '';" onblur="if(this.value=='') this.value='E-mail';" class="inputbox" type="text" name="user[email]" style="width:243px" value="E-mail" title="E-mail" /></span>
