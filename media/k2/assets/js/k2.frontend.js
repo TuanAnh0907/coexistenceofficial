@@ -220,7 +220,7 @@ $K2(document).ready(function(){
 			parentElement.find('.k2LiveSearchResults').css('display','none').empty();
 			parentElement.find('input[name=t]').val($K2.now());
 			parentElement.find('input[name=format]').val('raw');
-			var url = 'index.php?option=com_k2&view=itemlist&task=search&' + parentElement.find('form').serialize();
+			var url = 'pages?option=com_k2&view=itemlist&task=search&' + parentElement.find('form').serialize();
 			parentElement.find('input[name=format]').val('html');
 			$K2.ajax({
 				url: url,
