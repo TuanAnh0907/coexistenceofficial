@@ -1,0 +1,44 @@
+.sp_countdown {position: relative; min-height: 590px;}
+.sp_coundown_all{position: absolute; bottom: 0; left: 0; margin-bottom: 95px;}
+.sp_countdown_pre_text {display: inline-block;}
+.sp_countdown_cntdwn {}
+.sp_countdown_post_text{display: inline-block;}
+.sp_countdown_button {}
+
+
+
+.sp_countdown_days {}
+.sp_countdown_days .sp_countdown_int {display: inline-block;}
+.sp_countdown_days .sp_countdown_string {display: inline-block;}
+.sp_countdown_hours {}
+.sp_countdown_hours .sp_countdown_int {display: inline-block;}
+.sp_countdown_hours .sp_countdown_string {display: inline-block;}
+.sp_countdown_mins {}
+.sp_countdown_mins .sp_countdown_int {display: inline-block;}
+.sp_countdown_mins .sp_countdown_string {display: inline-block;}
+.sp_countdown_secs {}
+.sp_countdown_secs .sp_countdown_int {display: inline-block;}
+.sp_countdown_secs .sp_countdown_string {display: inline-block;}
+.sp_countdown_container {display: inline-block;}
+
+/*
+     FILE ARCHIVED ON 03:30:54 Jun 27, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:12:46 Jul 11, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 8.519
+  exclusion.robots: 0.028
+  exclusion.robots.policy: 0.017
+  esindex: 0.014
+  cdx.remote: 10.04
+  LoadShardBlock: 95.119 (3)
+  PetaboxLoader3.datanode: 74.153 (5)
+  PetaboxLoader3.resolve: 197.155 (2)
+  load_resource: 187.397
+  loaddict: 22.101
+*/

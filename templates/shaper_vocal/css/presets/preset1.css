@@ -1,0 +1,226 @@
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+.hide-text {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+.input-block-level {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    color: #ffffff;
+}
+body.bg {
+    background: #000;
+}
+.btn.btn-primary,
+button {
+    background-color: #ec5538;
+    box-shadow: 0 2px #ad2a11;
+    color: #fff;
+}
+.btn.btn-primary:hover,
+button:hover {
+    background: #dc3515;
+}
+a {
+    color: #ec5538;
+}
+a:hover {
+    color: #dc3515;
+}
+div.pagination ul li.pagination-active a {
+    background: #ec5538;
+}
+.pagination ul>li>a:hover,
+.pagination ul>li>span:hover {
+    background: #ec5538;
+}
+.social-icon ul i:hover {
+    color: #ec5538;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+textarea:hover,
+textarea:focus,
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="password"]:hover,
+input[type="password"]:focus,
+input[type="datetime"]:hover,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:hover,
+input[type="datetime-local"]:focus,
+input[type="date"]:hover,
+input[type="date"]:focus,
+input[type="month"]:hover,
+input[type="month"]:focus,
+input[type="time"]:hover,
+input[type="time"]:focus,
+input[type="week"]:hover,
+input[type="week"]:focus,
+input[type="number"]:hover,
+input[type="number"]:focus,
+input[type="email"]:hover,
+input[type="email"]:focus,
+input[type="url"]:hover,
+input[type="url"]:focus,
+input[type="search"]:hover,
+input[type="search"]:focus,
+input[type="tel"]:hover,
+input[type="tel"]:focus,
+input[type="color"]:hover,
+input[type="color"]:focus,
+.uneditable-input:hover,
+.uneditable-input:focus {
+    border-color: #ec5538;
+}
+#sp-main-menu ul.level-0 > li:hover >a,
+#sp-main-menu ul.level-0 > li.active >a {
+    color: #ec5538;
+}
+#sp-main-menu li li:not(.sp-menu-group):hover,
+#sp-main-menu li li:not(.sp-menu-group).active {
+    background: #ec5538;
+}
+.sp-performers .sp-member .image-wrapper .performers-overlay {
+    background: #ec5538;
+    background-color: rgba(236,85,54,0.8);
+}
+#tab-wrap.upcoming_event h2:hover {
+    color: #ec5538;
+}
+#tab-wrap.upcoming_event .big-date {
+    background-color: #ec5538;
+    color: #fff;
+}
+#tab-wrap.upcoming_event .flexslider .item_date li.flex-active-slide span {
+    color: #ec5538;
+}
+#tab-wrap.upcoming_event .flexslider .flex-direction-nav a {
+    color: #ec5538;
+}
+#sp-bottom-wrapper #sp-bottom2 ul li a:hover {
+    color: #ec5538;
+}
+.pricing-plan .plan-price {
+    color: #ec5538;
+}
+.pricing-plan .featured {
+    background: #ec5538;
+    color: #fff;
+}
+.sp-vocal-event-item:hover ul.sp-vocal-tab li.active a {
+    color: #ec5538 !important;
+}
+.sp-vocal-event-item ul.sp-vocal-tab li a {
+    background: #ec5538 !important;
+}
+.sp-vocal-event-item ul.sp-vocal-tab li a.event-map {
+    background: #ea4525 !important;
+}
+.sp-vocal-event-item ul.sp-vocal-tab li a.event-ticket-purchase {
+    background: #e53716 !important;
+}
+.item-no-image {
+    background-color: #ee694f;
+}
+ul.eventdtime li {
+    display: inline-block !important;
+    padding-right: 10px;
+}
+ul.eventdtime li i {
+    padding-right: 2px;
+    color: #ec5538;
+}
+.vocal-coundown-wrapper .sp_kcoundown_over:after {
+    background-color: rgba(236,85,54,0.8);
+}
+.albumWrapper .album-overlay {
+    background-color: rgba(236,85,54,0.8);
+}
+.tour .tour-details {
+    background: #ec5538;
+    background-color: rgba(236,85,54,0.8);
+}
+.sc-player .sc-controls a {
+    background: #ec5538;
+}
+.sc-player ol.sc-trackslist li.active {
+    border-bottom: 1px solid #ec5538 !important;
+}
+.sc-player ol.sc-trackslist li.active a:after {
+    color: #ec5538 !important;
+}
+.sc-scrubber .sc-played {
+    background-color: #ec5538 !important;
+}
+.nav-pills>.active>a,
+.nav-pills>.active>a:hover,
+.nav-pills>.active>a:focus {
+    background: #ec5538;
+}
+.gallery-filters a.btn.active {
+    background: #ec5538;
+}
+div.catItemCommentsLink,
+div.userItemCommentsLink {
+    border-left: 1px solid #ec5538;
+}
+h2.itemTitle,
+div.k2LatestCommentsBlock ul li a:hover,
+div.k2CategoriesListBlock ul li.activeCategory a,
+div.k2CategoriesListBlock ul li.activeCategory,
+div.k2CategoriesListBlock ul li:hover,
+div.k2CategoriesListBlock ul li a:hover,
+.popular-blog .ns2-wrap h4.ns2-title a:hover {
+    color: #ec5538;
+}
+div.k2ItemsBlock ul li a:hover {
+    color: #dc3515;
+}
+.blogDate {
+    background: #ec5538;
+}
+
+/*
+     FILE ARCHIVED ON 09:42:03 Jun 15, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:34:18 Jul 12, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.469
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.017
+  esindex: 0.011
+  cdx.remote: 8.269
+  LoadShardBlock: 46.266 (3)
+  PetaboxLoader3.datanode: 144.337 (5)
+  load_resource: 155.338
+  PetaboxLoader3.resolve: 45.098
+  loaddict: 31.675
+*/

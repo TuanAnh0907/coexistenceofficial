@@ -1,0 +1,91 @@
+/*!
+ * Justified Gallery - v3.2.0
+ * https://miromannino.com/projects/justified-gallery/
+ * Copyright (c) 2014 Miro Mannino
+ * Licensed under the MIT license.
+ */
+@-webkit-keyframes justified-gallery-show-caption-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+@-moz-keyframes justified-gallery-show-caption-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+@-o-keyframes justified-gallery-show-caption-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+@keyframes justified-gallery-show-caption-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+@-webkit-keyframes justified-gallery-show-entry-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+@-moz-keyframes justified-gallery-show-entry-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+@-o-keyframes justified-gallery-show-entry-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+@keyframes justified-gallery-show-entry-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1.0;
+  }
+}
+/*
+     FILE ARCHIVED ON 18:50:46 Oct 23, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:56:28 Jul 11, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.616
+  exclusion.robots: 0.049
+  exclusion.robots.policy: 0.037
+  esindex: 0.014
+  cdx.remote: 56.851
+  LoadShardBlock: 80.513 (3)
+  PetaboxLoader3.datanode: 63.918 (5)
+  PetaboxLoader3.resolve: 147.004 (2)
+  load_resource: 137.865
+  loaddict: 20.559
+*/

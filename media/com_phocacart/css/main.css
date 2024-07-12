@@ -1,0 +1,1690 @@
+.ph-top {
+	margin-bottom: 5px;
+}
+.ph-desc,
+.ph-items,
+.ph-categories,
+.ph-subcategories {
+	margin-top: 10px;
+}
+.ph-desc {
+	margin-bottom: 20px;
+}
+
+.ph-cat-desc,
+.ph-item-desc {
+
+}
+
+.pc-checkout-view,
+.pc-account-view,
+.pc-category-view,
+.pc-categories-view,
+.pc-item-view {
+	margin: 10px 0px;
+
+}
+.ph-center,
+.ph-image,
+.ph-image-full {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.ph-image-navigation-box {
+	margin-top: 10px;
+}
+
+.ph-image-navigation {
+	width: 7em;
+}
+
+
+.ph-small {
+	font-size: 100%;
+}
+
+
+.ph-u {
+	text-decoration: underline;
+}
+.ph-cb {
+	clear: both;
+}
+.ph-right {
+	text-align: right;
+}
+.ph-left{
+	text-align: left;
+}
+.ph-hr {
+	border-bottom: 1px solid #ddd;
+}
+
+.ph-msg-error{
+	color: #fc0000;
+}
+
+.ph-checkout-cart-box .ph-hr {
+	border-color: #ddd;
+}
+
+
+
+
+.ph-item-reward-box,
+.ph-category-bottom-box,
+.ph-category-add-to-cart-box,
+.ph-item-bottom-box,
+.ph-item-add-to-cart-box,
+.ph-item-min-qty-box,
+.ph-item-stock-box,
+.ph-item-tag-box {
+	margin-top: 20px;
+}
+
+.ph-item-buy-now-box {
+	/* margin-top: -1px; */
+}
+
+.pc-item-view .ph-item-buy-now-box {
+	margin-top: 20px;
+}
+
+.ph-item-tag-box span a {
+	color: #000000;
+	text-decoration:none;
+}
+
+.ph-item-reward-box .ph-reward,
+.ph-category-price-box .ph-price-brutto,
+.ph-category-price-box .ph-price-netto,
+.ph-category-price-box .ph-price-original,
+.ph-category-price-box .ph-price-base,
+.ph-category-price-box .ph-tax,
+
+.ph-item-sku-box .ph-sku,
+.ph-item-upc-box .ph-upc,
+.ph-item-ean-box .ph-ean,
+.ph-item-jan-box .ph-jan,
+.ph-item-isbn-box .ph-isbn,
+.ph-item-mpn-box .ph-mpn,
+.ph-item-serial-number-box .ph-serial-number,
+
+.ph-item-min-qty-box .ph-min-qty,
+.ph-item-manufacturer-box .ph-manufacturer,
+.ph-item-price-box .ph-price-brutto,
+.ph-item-price-box .ph-price-netto,
+.ph-item-price-box .ph-price-original,
+.ph-item-price-box .ph-price-base,
+.ph-item-price-box .ph-tax,
+.ph-item-stock-box .ph-stock {
+	float: right;
+}
+
+.ph-top-space {
+	margin-top: 20px;
+}
+
+.ph-item-reward-box .ph-reward-txt,
+
+.ph-category-price-box .ph-price-txt,
+.ph-category-price-box .ph-tax-txt,
+.ph-category-stock-box .ph-stock-txt,
+
+.ph-item-sku-box .ph-sku-txt,
+.ph-item-upc-box .ph-upc-txt,
+.ph-item-ean-box .ph-ean-txt,
+.ph-item-jan-box .ph-jan-txt,
+.ph-item-isbn-box .ph-isbn-txt,
+.ph-item-mpn-box .ph-mpn-txt,
+.ph-item-serial-number-box .ph-serial-number-txt,
+
+.ph-item-min-qty-box .ph-min-qty-txt,
+.ph-item-manufacturer-box .ph-manufacturer-txt,
+.ph-item-price-box .ph-price-txt,
+.ph-item-price-box .ph-tax-txt,
+.ph-item-stock-box .ph-stock-txt {
+	float: left;
+	clear: both;
+}
+
+.ph-item-box.list .ph-category-price-box,
+.ph-item-box.gridlist .ph-category-price-box {
+	padding-bottom: 10px;
+}
+
+.ph-category-price-box .ph-price-original,
+.ph-item-price-box .ph-price-original {
+	color: #cc0000;
+	font-weight: bold;
+	text-decoration: line-through;
+}
+.ph-checkout-cart-brutto,
+.ph-cart-total,
+.ph-category-price-box .ph-price-brutto,
+.ph-item-price-box .ph-price-brutto {
+	font-weight: bold;
+}
+.form-inline .form-group .ph-input-quantity {
+	width:30px;
+}
+.form-inline .form-group .ph-input-quantity.ph-input-sm {
+	width:26px;
+	height: 22px;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.ph-item-input-select-attributes {
+	width: 60% !important;
+}
+
+.ph-cart-small-quantity {
+	width: 2%;
+}
+
+
+.ph-item-image-full-box {
+	text-align: center;
+	margin: 0 auto;
+}
+.ph-item-image-add-box {
+	text-align: center;
+	margin-top: 10px;
+}
+.ph-item-thumbnail-related {
+	text-align: center;
+	margin: auto;
+}
+
+
+.ph-tab-pane {
+	padding: 15px;
+	margin-top: -1px;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.ph-spec-title {
+	font-weight: bold;
+}
+
+.ph-review-value input,
+.ph-review-value textarea {
+
+}
+.ph-rating-box {
+	margin-bottom: 10px;
+}
+
+.ph-reviews-review {
+	font-style:italic;
+	color: #555;
+	padding-top: 10px;
+}
+
+/* Stars */
+span.ph-stars, span.ph-stars span {
+    display: block;
+    background: url("/media/com_phocacart/images/star-small.png") 0 -16px repeat-x;
+    width: 80px;
+    height: 16px;
+}
+span.ph-stars span {
+    background-position: 0 0;
+}
+
+
+/* Bootstrap adds */
+/* Base styles (regardless of theme) */
+.bs-callout {
+margin: 20px 0;
+padding: 15px 30px 15px 15px;
+border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+margin-top: 0;
+}
+.bs-callout p:last-child {
+margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+background-color: #000000;
+}
+
+/* Themes for different contexts */
+.bs-callout-danger {
+background-color: #fcf2f2;
+border-color: #dFb5b4;
+}
+.bs-callout-warning {
+background-color: #fefbed;
+border-color: #f1e7bc;
+}
+.bs-callout-info {
+background-color: #f0f7fd;
+border-color: #d0e3f0;
+}
+
+.bs-callout-danger h4 {
+color: #B94A48;
+}
+
+.bs-callout-warning h4 {
+color: #C09853;
+}
+
+.bs-callout-info h4 {
+color: #3A87AD;
+}
+
+.ph-checkout-cart-box {
+	width: 100%;
+}
+
+
+
+
+.ph-checkout-cart-image,
+.ph-checkout-cart-quantity {
+	text-align: center;
+}
+.ph-checkout-cart-product {
+	text-align: left;
+}
+
+.ph-checkout-total-discount,
+.ph-checkout-total-coupon,
+.ph-checkout-total-amount,
+.ph-checkout-cart-netto,
+.ph-checkout-cart-brutto,
+.ph-checkout-cart-tax {
+	text-align: right;
+	/*margin-right: 10px;
+	padding-right: 10px;*/
+}
+
+.ph-checkout-cart-box tr td ul {
+	margin-left: -20px;
+	margin-top: -15px;
+}
+.ph-checkout-cart-box tr td ul li,
+.ph-cart-small-box tr td ul li {
+	color: #999;
+	padding: 0 auto;
+	margin: 0 auto;
+	line-height: 1;
+}
+.ph-checkout-cart-box tr td ul li span.ph-cart-small-attribute{
+	line-height: 2;
+}
+
+.ph-checkout-cart-image img {
+	width: 80%;
+	height: auto;
+}
+
+table tr th.ph-checkout-cart-image {
+	width: 10%;
+}
+
+.ph-input-select-currencies {
+
+}
+.ph-input-select-currencies-button {
+	margin-top: 10px;
+}
+
+/* Account, Checkout */
+.ph-account-box-action,
+.ph-checkout-box-action {
+	padding: 5px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0px 0px 4px 4px;
+	margin: 0px auto 20px auto;
+	background: transparent;
+}
+.ph-account-box-action-raw,
+.ph-checkout-box-action-raw {
+	padding: 5px;
+
+	margin: 0px 25px 20px auto;
+
+}
+.ph-account-box-row,
+.ph-checkout-box-row {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.ph-account-box-header,
+.ph-checkout-box-header {
+	border: 1px solid #ddd;
+	border-radius: 4px 4px 0px 0px;
+	margin: 20px 0px 0px 0px;
+	background: #000000;
+}
+
+.ph-account-box-header{
+	margin: -5px 0px 0px 0px;
+}
+.ph-checkout-box-header {
+	margin: 20px 0px 0px 0px;
+}
+
+.ph-account-box-header-pas,
+.ph-checkout-box-header-pas {
+	border: 1px solid #ddd;
+	border-radius: 4px 4px 4px 4px;
+	margin: 20px 0px 0px 0px;
+	background: #000000;
+}
+.ph-account-box-header-pas h3,
+.ph-account-box-header h3,
+.ph-checkout-box-header-pas h3,
+.ph-checkout-box-header h3 {
+	margin: 0px;
+	padding: 10px;
+	font-size: 120%;
+}
+
+.ph-account-box-action .ph-box-header,
+.ph-checkout-box-action .ph-box-header {
+
+  font-weight: bold;
+  color: #bbb;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+
+}
+
+.ph-account-btn-login,
+.ph-checkout-btn-login {
+	margin-top: -7px;
+	margin-bottom: 7px !important;
+}
+
+.ph-li-inline li {
+	float: left;
+
+	margin-left: 30px;
+}
+
+.ph-left-border {
+	border-left: 1px solid #ddd;
+	margin-left: -1px;
+}
+.ph-right-border {
+	border-right: 1px solid #ddd;
+}
+
+.ph-checkout-icon-finished,
+.ph-checkout-icon-ok {
+	font-size: 130%;
+	color: #47a447;
+	margin-right: 3px;
+	margin-top: 3px;
+}
+
+.ph-checkout-icon-pending,
+.ph-checkout-icon-not-ok {
+	font-size: 130%;
+	color: #d2322d;
+	margin-right: 3px;
+	margin-top: 3px;
+}
+
+.ph-checkout-icon-spec-finished {
+	display: inline-block;
+	padding: 5px;
+	background: #5CB85C;
+	color: #000000;
+	margin: 2px;
+	font-size: 120%;
+	font-weight: bold;
+	width: 30px;
+	text-align: center;
+
+	/*
+	font-size: 220%;
+	width: 70px;
+	overflow: visible;
+	position: absolute;
+	right: 2px;
+	top: 22px;*/
+	/* border-radius: 0px 3px 0px 3px; */
+}
+
+.ph-checkout-icon-spec-pending {
+	display: inline-block;
+	padding: 5px;
+	background: #ccc;
+	color: #000000;
+	margin: 2px;
+	font-size: 120%;
+	font-weight: bold;
+	width: 30px;
+	text-align: center;
+	/* border-radius: 0px 3px 0px 0px; */
+}
+
+
+.ph-checkout-address-edit,
+.ph-checkout-check-box,
+.ph-checkout-address-save {
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+.ph-checkout-payment-edit,
+.ph-checkout-shipping-edit {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.ph-checkout-shipping-save {
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+
+.ph-checkout-payment-netto,
+.ph-checkout-payment-brutto,
+.ph-checkout-payment-tax ,
+.ph-checkout-shipping-netto,
+.ph-checkout-shipping-brutto,
+.ph-checkout-shipping-tax {
+	text-align: right;
+}
+
+.ph-checkout-payment-brutto,
+.ph-checkout-shipping-brutto {
+	font-weight: bold;
+}
+
+.ph-checkout-checkbox-confirm {
+	padding-right: 20px;
+}
+
+.ph-download-header-box-row,
+.ph-orders-header-box-row {
+	font-weight: bold;
+	border-bottom: 2px solid #ddd;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.ph-download-item-box-row-line {
+	border-bottom: 1px solid #ddd;
+	padding-top: 0px;
+
+}
+.ph-orders-item-box-row {
+	border-bottom: 1px solid #ddd;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.ph-download-item-box-row div {
+	margin-top: 7px;
+	margin-bottom: 7px;
+
+}
+
+.ph-terms-box-in {
+	font-family: sans-serif, arial;
+	font-size: 90%;
+	padding: 20px;
+}
+
+.ph-checkout-payment-desc,
+.ph-checkout-shipping-desc {
+	font-size: small;
+	font-style: italic;
+}
+
+/* IDnR */
+
+.ph-idnr-box {
+	margin: 5%;
+	margin-top: 0;
+}
+.ph-idnr-box-in {
+	width: 100%;
+	font-family: sans-serif, arial;
+	font-size: 90%;
+}
+table.ph-idnr-box-in tr td {
+	vertical-align: top;
+}
+.ph-idnr-header-img {
+	margin: 5px auto;
+}
+
+.ph-idnr-billing-box,
+.ph-idnr-shipping-box {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+.pho1, .pho2, .pho3, .pho4,
+.pho5, .pho6, .pho7, .pho8,
+.pho9, .pho10, .pho11, .pho12 {
+	width: 8.3333%;
+}
+.ph-idnr-sep { width: 3%;}
+
+.ph-idnr-header-product {
+	font-weight: bold;
+	background: #ddd;
+}
+.ph-idnr-header-product td {
+	padding: 5px;
+	white-space:nowrap;
+}
+.ph-idnr-body-product td {
+	white-space:nowrap;
+	padding: 5px;
+}
+.ph-idnr-sep-horizontal {
+	border-top: 1px solid #ddd;
+}
+.ph-idnr-total td {
+	padding: 2px 5px;
+}
+.ph-idnr-ul {
+	margin-top: -5px;
+}
+.ph-idnr-li {
+	line-height: 1;
+}
+.ph-idnr-to-pay-box td {
+	padding: 2px 5px;
+}
+.ph-idnr-to-pay {
+	background: #eee;
+	padding: 20px;
+}
+.ph-idnr-to-pay-value {
+	background: #eee;
+	padding: 20px;
+	text-align: right;
+}
+
+.ph-category-item-addtocart {
+	float: right;
+	margin: 2px;
+}
+
+.ph-category-item-compare {
+	float: right;
+	margin: 2px;
+}
+
+.ph-category-item-wishlist {
+	float: right;
+	margin: 2px;
+}
+
+.ph-category-item-quickview {
+	float: right;
+	margin: 2px;
+}
+
+.ph-category-item-addtocart .glyphicon-shopping-cart {
+	 color: #333333;
+}
+
+.ph-category-item-compare  .glyphicon-stats {
+    color: #4491e4;
+}
+
+.ph-category-item-quickview .glyphicon-heart-empty,
+.ph-category-item-wishlist .glyphicon-heart {
+	color: #EA7C7C;
+}
+
+.ph-category-item-quickview .glyphicon-eye-open {
+	color: #555555;
+}
+
+.ph-comparison-table .img-responsive{width:100%;}
+
+.ph-comparison-table,
+.ph-comparison-table tr,
+.ph-comparison-table tr td {
+	border: 1px solid #ddd;
+
+}
+
+.ph-comparison-table tr td {
+	width: 25%;
+	padding: 5px;
+}
+
+.ph-center {
+	text-align: center;
+}
+.ph-center-pagination {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.ph-center-pagination input,
+.ph-center-pagination select,
+.ph-center-pagination .chosen-container {
+	text-align:left;
+}
+.ph-pagination-mt {
+	margin-top: -20px;
+}
+.ph-pagination-top {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.ph-pagination-top #limit.inputbox,
+.ph-pagination #limit.inputbox {
+	width: 5em;
+}
+table.ph-comparison-table tr td {
+	vertical-align: top;
+}
+table.ph-comparison-table tr td.ph-middle {
+	vertical-align: middle;
+}
+
+.ph-red {
+	color: #d60000;
+}
+.ph-b {
+	font-weight:bold;
+}
+
+.ph-new-icon {
+	position:absolute;
+	top: 5px;
+	right: 25px;
+}
+.ph-hot-icon {
+	position:absolute;
+	top: 5px;
+	right: 45px;
+}
+.ph-featured-icon {
+	position:absolute;
+	top: 5px;
+	right: 65px;
+}
+.ph-alert-small {
+	margin: 0px !important;
+	padding:5px !important;
+	margin-top: -5px !important;
+	margin-bottom: 3px !important;
+	font-size: x-small;
+}
+
+.ph-item-navigation-box {
+	margin: 10px 0px 10px 0px;
+}
+
+
+/* CSS Loading */
+.ph-loader {
+  margin: 3em auto;
+  font-size: 8px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid #C1E2F1;
+  border-right: 1.1em solid #C1E2F1;
+  border-bottom: 1.1em solid #C1E2F1;
+  border-left: 1.1em solid #45A7D4;
+  -webkit-animation: load8 1.3s infinite linear;
+  animation: load8 1.3s infinite linear;
+}
+.ph-loader,
+.ph-loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
+/* Full site overlay plus loader - used when filtering */
+#phLoaderFull {
+  margin: auto auto;
+  top: 50%;
+  font-size: 8px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid #C1E2F1;
+  border-right: 1.1em solid #C1E2F1;
+  border-bottom: 1.1em solid #C1E2F1;
+  border-left: 1.1em solid #45A7D4;
+  -webkit-animation: load8 1.3s infinite linear;
+  animation: load8 1.3s infinite linear;
+}
+#phLoaderFull,
+#phLoaderFull:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  margin-top: -10em;
+
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+#phOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    z-index: 10000;
+	display:none;
+}
+
+#phItemsBox {
+	position: relative;
+}
+
+#phOverlayDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    z-index: 10000;
+	display:none;
+}
+
+
+
+
+
+/* Icons Hot, New, Featured */
+
+.ph-corner-icon-wrapper {
+	overflow: hidden;
+    position: absolute;
+	top: -3px;
+	right: -3px;
+}
+
+.ph-item-image-full-box .ph-corner-icon-wrapper {
+	right: 12px;
+}
+
+.ph-corner-icon1-wrapper { width: 85px; height: 88px;}
+.ph-corner-icon2-wrapper { width: 145px; height: 148px;}
+.ph-corner-icon3-wrapper { width: 205px; height: 208px;}
+
+
+.ph-corner-icon {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+	text-shadow: rgba(0,0,0,0.3) 2px 2px 1px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform:    rotate(45deg);
+	-ms-transform:     rotate(45deg);
+	-o-transform:      rotate(45deg);
+	position: relative;
+	padding: 7px 0;
+	-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+	-moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+	box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+	z-index: 1000;
+}
+
+.ph-corner-icon-hot {
+	background-color: #d9534f;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d9534f), to(#c9302c));
+	background-image: -webkit-linear-gradient(top, #d9534f, #c9302c);
+	background-image:    -moz-linear-gradient(top, #d9534f, #c9302c);
+	background-image:     -ms-linear-gradient(top, #d9534f, #c9302c);
+	background-image:      -o-linear-gradient(top, #d9534f, #c9302c);
+}
+
+.ph-corner-icon-featured {
+	background-color: #f0ad4e;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(#ec971f));
+	background-image: -webkit-linear-gradient(top, #f0ad4e, #ec971f);
+	background-image:    -moz-linear-gradient(top, #f0ad4e, #ec971f);
+	background-image:     -ms-linear-gradient(top, #f0ad4e, #ec971f);
+	background-image:      -o-linear-gradient(top, #f0ad4e, #ec971f);
+}
+
+.ph-corner-icon-new {
+	background-color: #337ab7;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#286090));
+	background-image: -webkit-linear-gradient(top, #337ab7, #286090);
+	background-image:    -moz-linear-gradient(top, #337ab7, #286090);
+	background-image:     -ms-linear-gradient(top, #337ab7, #286090);
+	background-image:      -o-linear-gradient(top, #337ab7, #286090);
+}
+
+.ph-corner-icon1 {left: -5px;top: 13px;width: 121px; }
+.ph-corner-icon2 {left: -15px; top: 42px; width: 203px;}
+.ph-corner-icon3 {left: -25px; top: 71px; width: 285px;}
+
+.ph-corner-icon:before, .ph-corner-icon:after {
+  content: "";
+  border-top:   3px solid #555;
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+
+.ph-corner-icon:before {
+  left: 0;
+}
+.ph-corner-icon:after {
+  right: 0;
+}
+
+
+/* Alternative - Icons Hot, New, Featured - circle */
+/*
+.ph-corner-icon-wrapper {
+	overflow: hidden;
+    position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.ph-corner-icon1-wrapper { width: 85px; height: 88px;}
+.ph-corner-icon2-wrapper { width: 145px; height: 148px;}
+.ph-corner-icon3-wrapper { width: 205px; height: 208px;}
+
+.ph-corner-icon {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+	position: absolute;
+	padding: 13px 7px;
+	-webkit-transform: rotate(-20deg);
+	-moz-transform:    rotate(-20deg);
+	-ms-transform:     rotate(-20deg);
+	-o-transform:      rotate(-20deg);
+	border-radius: 50%;
+	box-shadow: none;
+	border: none;
+	text-shadow: none;
+	z-index: 1000;
+}
+
+.ph-corner-icon-featured {
+	background-color: #FFCC00;
+	background-image: none;
+}
+
+.ph-corner-icon1 {left: 25px;top: 5px;width: auto; }
+.ph-corner-icon2 {left: 0px; top:0 px; width: auto;}
+.ph-corner-icon3 {left: 0px; top: 0px; width: auto;}
+
+.ph-corner-icon:before, .ph-corner-icon:after {
+  content: "";
+  border: 0px;
+  position:absolute;
+  bottom: 0px;
+}*/
+/* End alternative Icons Hot, New, Featured - circle */
+
+/* Filter */
+.ph-filter-box {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.ph-filter-box .panel {
+	margin-bottom: -2px;
+	margin-top: -2px;
+
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+
+}
+
+.ph-filter-box .panel:first-child {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.ph-filter-box .panel-body {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.ph-filter-box .panel-body.form-horizontal {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.ph-filter-box .panel-body.form-horizontal .form-group {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+
+.ph-right-zero {
+	margin-right: -15px;
+	padding-right: 0px;
+}
+
+.ph-left-zero {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.ph-search-radio {
+	font-size: small;
+	color: #555;
+}
+
+/* video */
+.ph-video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.ph-video-container iframe, .ph-video-container object, .ph-video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.ph-no-image {
+	margin: 1em;
+	color: #ccc
+}
+.ph-item-image-box {
+	margin: 0.5em auto;
+}
+
+/* Modules */
+.ph-category-module-box {
+	margin-bottom: 10px;
+}
+
+.ph-filter-module-categories-tree {
+	margin-top: 10px;
+	margin-left: -1em;
+}
+ul.ph-filter-module-category-tree {
+	list-style-type: none;
+	padding: 0;
+	padding-left: 1em;
+}
+
+ul.ph-filter-module-category-tree li .checkbox{
+	margin-top: 0px;
+	padding-top: 3px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.ph-checkout-shipping-row .form-group .control-label,
+.ph-checkout-billing-row .form-group .control-label {
+	text-align: left;
+}
+
+.ph-icon-pdf-text-box {
+	margin-top: -12px;
+}
+.ph-icon-pdf-text {
+	font-size: 60%;
+	margin-left: 6px;
+	margin-right: 6px;
+
+}
+
+/* Attribute */
+
+.phSelectBoxButton {
+    display: inline-block;
+    margin: 3px;
+    padding: 7px;
+	width: 15px;
+	height: 15px;
+    cursor: pointer;
+	border: 2px solid transparent;
+	box-sizing: content-box;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+.phSelectBoxButton.on {
+
+   border: 2px solid transparent;
+   padding: 7px;
+   width: 15px;
+   height: 15px;
+   color: #000000;
+   box-sizing: content-box;
+   border-radius: 2px;
+   text-decoration: none;
+}
+
+.phSelectBoxButton.on:after {
+
+  position: relative;
+  top: -2px;
+  left: -3px;
+  font-family: 'Glyphicons Halflings';
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+
+  content: '\e013'; /* Ok/check mark */
+  box-sizing: content-box;
+  border-radius: 2px;
+  text-decoration: none;
+  text-shadow: -2px 0 #000000, 0 2px #000000, 2px 0 #000000, 0 -2px #000000;
+}
+
+.phSelectBoxButton:hover,
+.phSelectBoxButton.on:hover {
+	border: 2px solid #000000;
+}
+
+a.phSelectBoxButton:hover,
+a.phSelectBoxButton.on:hover,
+a.phSelectBoxButton:visited,
+a.phSelectBoxButton.on:visited,
+a.phSelectBoxButton:active,
+a.phSelectBoxButton.on:active,
+a.phSelectBoxButton:focus,
+a.phSelectBoxButton.on:focus {
+	text-decoration: none;
+}
+
+
+.phSelectBoxImage {
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;
+	border: 2px solid transparent;
+	box-sizing: content-box;
+	border-radius: 2px;
+	text-decoration: none;
+	position: relative;
+}
+
+.phSelectBoxButton.on {
+
+   border: 2px solid transparent;
+   color: #000000;
+   box-sizing: content-box;
+   border-radius: 2px;
+   text-decoration: none;
+}
+
+.phSelectBoxImage.on:after {
+
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-family: 'Glyphicons Halflings';
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+
+  content: '\e013'; /* Ok/check mark */
+  box-sizing: content-box;
+  border-radius: 2px;
+  text-decoration: none;
+  color: #ffcc00;
+  text-shadow: -2px 0 #000000, 0 2px #000000, 2px 0 #000000, 0 -2px #000000;
+
+}
+
+.phSelectBoxImage:hover,
+.phSelectBoxImage.on:hover {
+	border: 2px solid #000000;
+	background: #000000;
+}
+
+a.phSelectBoxImage:hover,
+a.phSelectBoxImage.on:hover,
+a.phSelectBoxImage:visited,
+a.phSelectBoxImage.on:visited,
+a.phSelectBoxImage:active,
+a.phSelectBoxImage.on:active,
+a.phSelectBoxImage:focus,
+a.phSelectBoxImage.on:focus {
+	text-decoration: none;
+}
+
+
+
+
+.ph-question-message {
+
+}
+
+.ph-item-image-full-left-box {
+	text-align: left;
+}
+
+.phVMiddle,
+.pc-wishlist-view .phVMiddle {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+.ph-checkout-cart-image.ph-row-image img {
+	margin: 5px;
+}
+
+#phQuickViewPopup .ph-image-full,
+#phQuickViewPopup .img-thumbnail .ph-image-full {
+	border: 0px;
+	box-shadow: none;
+}
+
+/* Checkbox Color Button */
+#phItemAttributesBox .btn.phCheckBoxButton.phCheckBoxColor  {
+	margin: 1px;
+	padding:0px;
+	border: 2px solid transparent;
+	box-shadow: none;
+	border-radius: 2px;
+}
+#phItemAttributesBox .btn.phCheckBoxButton.phCheckBoxColor:hover  {
+	margin: 1px;
+	padding:0px;
+	border: 2px solid #000000;
+	box-shadow: none;
+	border-radius: 2px;
+}
+#phItemAttributesBox .btn.phCheckBoxButton.phCheckBoxColor span.glyphicon{
+    display: inline-block;
+    margin: 0px;
+	padding: 3px 6px 7px 6px;
+	width: 13px;
+	height: 15px;
+    cursor: pointer;
+	border: 2px solid transparent;
+	box-sizing: content-box;
+	border-radius: 2px;
+	text-decoration: none;
+	box-shadow: none;
+	opacity: 0;
+}
+#phItemAttributesBox .btn.phCheckBoxButton.phCheckBoxColor.active span.glyphicon {
+	border: 2px solid transparent;
+	margin: 0px;
+	padding: 3px 6px 7px 6px;
+	width: 13px;
+	height: 15px;
+	color: #000000;
+	box-sizing: content-box;
+	border-radius: 2px;
+	text-decoration: none;
+	opacity: 1;
+	text-shadow: -2px 0 #000000, 0 2px #000000, 2px 0 #000000, 0 -2px #000000;
+}
+
+/* Checkbox Image Button */
+#phItemAttributesBox .btn.phCheckBoxButton.phCheckBoxImage  {
+	margin: 0px;
+	padding:0px;
+	border: 0px;
+	box-shadow: none;
+	border-radius: 0px;
+	background: transparent;
+	position: relative;
+	margin: 3px;
+}
+#phItemAttributesBox .btn.phCheckBoxButton.phCheckBoxImage:hover  {
+	margin: 0px;
+	padding:0px;
+	border: 0px;
+	box-shadow: none;
+	border-radius: 0px;
+	position: relative;
+	margin: 3px;
+}
+#phItemAttributesBox .btn.phCheckBoxButton.phCheckBoxImage span.glyphicon{
+
+    cursor: pointer;
+	opacity: 0;
+	font-weight: bold;
+	position: absolute;
+    cursor: pointer;
+	box-sizing: content-box;
+	text-decoration: none;
+
+}
+#phItemAttributesBox .btn.phCheckBoxButton.phCheckBoxImage.active span.glyphicon {
+
+	opacity: 1;
+	color: #000000;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: content-box;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #ffcc00;
+	font-weight: bold;
+	text-shadow: -2px 0 #000000, 0 2px #000000, 2px 0 #000000, 0 -2px #000000;
+}
+
+.ph-req {
+	font-weight: bold;
+	color: #CC0000;
+}
+
+
+/* Phoca Cart Cart Module */
+
+/*
+table.ph-cart-small-box {
+	width: 100%;
+}*/
+
+.ph-cart-module-box {
+
+}
+
+.ph-cart-small-box .ph-hr {
+	border-color: #3a87ad;
+}
+
+.ph-cart-small-box div div ul li {
+	color: #999;
+	padding: 0 auto;
+	margin: 0 auto;
+	line-height: 1;
+}
+
+.ph-cart-link-checkout {
+	margin-top: 10px;
+	margin-right: 2px;
+}
+
+.ph-cart-module-box .col-sm-1,
+.ph-cart-module-box .col-md-1,
+.ph-cart-module-box .col-sm-2,
+.ph-cart-module-box .col-md-2,
+.ph-cart-module-box .col-sm-4,
+.ph-cart-module-box .col-md-4,
+.ph-cart-module-box .col-sm-5,
+.ph-cart-module-box .col-md-5,
+.ph-cart-module-box .col-sm-6,
+.ph-cart-module-box .col-md-6,
+.ph-cart-module-box .col-sm-7,
+.ph-cart-module-box .col-md-7,
+.ph-cart-module-box .col-sm-12,
+.ph-cart-module-box .col-md-12 {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.ph-cart-module-image {}
+.ph-cart-attribute-box {}
+.ph-cart-attribute-box-i {
+	padding-left: 30%;
+}
+
+
+/* Checkout */
+.ph-checkout-cart-box .col-sm-1,
+.ph-checkout-cart-box .col-md-1,
+.ph-checkout-cart-box .col-sm-2,
+.ph-checkout-cart-box .col-md-2,
+.ph-checkout-cart-box .col-sm-4,
+.ph-checkout-cart-box .col-md-4,
+.ph-checkout-cart-box .col-sm-5,
+.ph-checkout-cart-box .col-md-5,
+.ph-checkout-cart-box .col-sm-6,
+.ph-checkout-cart-box .col-md-6,
+.ph-checkout-cart-box .col-sm-7,
+.ph-checkout-cart-box .col-md-7,
+.ph-checkout-cart-box .col-sm-12,
+.ph-checkout-cart-box .col-md-12 {
+
+}
+
+
+.ph-vertical-align {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.ph-vertical-align-row {
+
+}
+
+.ph-checkout-attribute-box {
+	padding: 0px;
+	margin: 0px;
+	margin-top: -15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+.ph-mod-color-box {
+	padding: 10px;
+}
+
+
+
+.ph-panel-body-color {
+	padding: 10px;
+}
+
+
+/* Discount row */
+.ph-checkout-discount-row {
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+.ph-price-discount,
+.ph-checkout-discount-row div {
+	color: #00B19D;
+}
+
+.ph-line-through-txt {
+	/*text-decoration: line-through;*/
+}
+
+.ph-line-through {
+	text-decoration: line-through;
+}
+
+
+/* Pagination Top */
+.ph-pagination-top button {
+	margin-top: 0px;
+}
+
+.ph-pagination-top .btn {
+
+}
+.ph-pagination-top .btn span {
+	color: #d0d0d0;
+}
+.ph-pagination-top .btn.active span{
+	color: #000;
+}
+.ph-pagination-top .btn,
+.ph-pagination-top .btn:focus,
+.ph-pagination-top .btn:visited,
+.ph-pagination-top .btn:focus,
+.ph-pagination-top .btn:active,
+.ph-pagination-top .btn.active{
+	box-shadow: none;
+	outline: none;
+	outline-offset: 0px;
+}
+
+
+
+
+.ph-item-clearfix {
+	clear: both;
+}
+
+/* Layout Type */
+.ph-items.grid {
+
+}
+
+.ph-items.list {
+
+}
+
+.ph-items.gridlist {
+
+}
+
+h3.grid {
+	text-align: center;
+}
+h3.list,
+h3.gridlist {
+	margin: 0px;
+	padding: 0px;
+	background: transparent;
+}
+
+
+.ph-item-content.grid .ph-stars-box {
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+/*
+.chosen-search{display: none}
+*/
+
+
+.ph-item-box {
+	position: relative;
+}
+
+.ph-item-content-row{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Equal Heights by Flexbox */
+.row-flex.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row-flex.grid .row-item {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.row-flex.grid .row-item .ph-item-box,
+.row-flex.grid .row-item .ph-item-box .ph-thumbnail-c {
+	height: 100%;
+}
+
+.row-flex.grid .row-item .ph-item-box .ph-thumbnail-c .ph-item-content {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.row-flex.grid .row-item .ph-item-box .ph-thumbnail-c .ph-item-content .phItemWishListBoxForm,
+.row-flex.grid .row-item .ph-item-box .ph-thumbnail-c .ph-item-content .phItemCompareBoxForm,
+.row-flex.grid .row-item .ph-item-box .ph-thumbnail-c .ph-item-content .phItemCartBoxForm,
+.row-flex.grid .row-item .ph-item-box .ph-thumbnail-c .ph-item-content .phItemQuickViewBoxForm{
+}
+
+.ph-item-action{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+}
+
+
+
+.ph-item-box.grid {
+    position: relative;
+    margin-bottom: 20px;
+    clear: both;
+
+}
+
+
+
+
+.row-flex.grid .row-item .ph-item-box .ph-thumbnail-c .ph-item-content .ph-item-action-box {
+
+}
+.row-flex.grid .row-item .ph-item-box .ph-thumbnail-c .ph-item-content .ph-category-price-box {
+
+}
+.row-flex.grid .row-item .ph-item-box .ph-thumbnail-c .ph-item-content .ph-item-action-box{
+	width: 100%;
+	margin-top: auto;
+}
+
+
+
+.ph-item-box .ph-item-content {
+	padding: 10px;
+}
+
+/* Select Box required */
+select:invalid,
+select:invalid  + .chosen-container .chosen-single {
+    border: 1px solid #fc0000 !important;
+	box-shadow: 0 0px 4px #FF9494 !important;
+}
+
+.ph-shipping-info-box {
+	padding: 5px;
+	border: 1px solid #f0f0f0;
+	background: #fdfdfd;
+}
+
+.ph-shipping-info-box a{
+	text-decoration: underline;
+}
+.ph-shipping-info-header {
+	font-weight: bold;
+}
+
+.ph-clear-both {
+	clear:both;
+}
+
+/* Uncomment in Protostar */
+/*
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    height: 28px !important;
+}
+*/
+
+
+.ph-item-price-panel form {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#phItemTopBoxForm .ph-pag-top-row {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.phIBoxOH {
+    text-align: center;
+}
+
+
+.row-item {
+
+}
+
+.ph-item-action-fade form {
+	margin: 0px;
+}
+
+.ph-payment-title,
+.ph-payment-image,
+.ph-shipping-title,
+.ph-shipping-image {
+	display: inline-block;
+	margin: 5px;
+}
+
+label .ph-payment-title,
+label .ph-payment-image,
+label .ph-shipping-title,
+label .ph-shipping-image {
+	display: inline;
+}
+
+.ph-video-container iframe {
+	border: 0px;
+}
+
+
+/*
+     FILE ARCHIVED ON 18:50:19 Oct 23, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:17:37 Jul 11, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.733
+  exclusion.robots: 0.052
+  exclusion.robots.policy: 0.036
+  esindex: 0.013
+  cdx.remote: 5.506
+  LoadShardBlock: 43.365 (3)
+  PetaboxLoader3.datanode: 76.59 (5)
+  load_resource: 107.359
+  PetaboxLoader3.resolve: 58.159
+  loaddict: 21.377
+*/
